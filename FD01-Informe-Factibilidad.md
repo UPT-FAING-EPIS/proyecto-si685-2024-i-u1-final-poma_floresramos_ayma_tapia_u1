@@ -1,230 +1,397 @@
-<center>
-
-[comment]: <img src="./media/media/image1.png" style="width:1.088in;height:1.46256in" alt="escudo.png" />
-
-![./media/media/image1.png](./media/logo-upt.png)
+﻿
+![C:\Users\EPIS\Documents\upt.png](Aspose.Words.94390f36-5ff6-4a16-bc29-edf856881b9a.001.png)
 
 **UNIVERSIDAD PRIVADA DE TACNA**
 
-**FACULTAD DE INGENIERIA**
+**FACULTAD DE INGENIERÍA**
 
 **Escuela Profesional de Ingeniería de Sistemas**
 
-**Proyecto *{Nombre de Proyecto}***
 
-Curso: *{Nombre de Asignatura}*
+` `**Proyecto *Sistema de Fusión y Corte de PDFs***
 
-Docente: *{Nombre de Docente}*
+
+Curso: *Diseño y Arquitectura de Software*
+
+
+Docente: *Ing. Patrick Cuadros*
+
 
 Integrantes:
 
-***{Apellidos y nombres del estudiante (código universitario)}***
+***Ayma Choque, Erick Yoel (2021072616)***
+
+***Flores Ramos, Mario Antonio (2018000597)***
+
+***Poma Machicado, Fabiola Estefani (2021070030)***
+
+***Tapia Vargas, Dylan Yariet (2021072630)***
+
+
+
+
+
 
 **Tacna – Perú**
 
-***{Año}***
+***2024***
 
-**  
-**
-</center>
-<div style="page-break-after: always; visibility: hidden">\pagebreak</div>
 
-Sistema *{Nombre del Sistema}*
 
-Informe de Factibilidad
 
-Versión *{1.0}*
+
+
+
+
+
+
+
+
+**Sistema *{Nombre del Sistema}***
+
+**Informe de Factibilidad**
+
+**Versión *{1.0}***
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 |CONTROL DE VERSIONES||||||
 | :-: | :- | :- | :- | :- | :- |
 |Versión|Hecha por|Revisada por|Aprobada por|Fecha|Motivo|
 |1\.0|MPV|ELV|ARV|10/10/2020|Versión Original|
 
-<div style="page-break-after: always; visibility: hidden">\pagebreak</div>
 
-# **INDICE GENERAL**
+**ÍNDICE GENERAL**
 
-[1. Descripción del Proyecto](#_Toc52661346)
 
-[2. Riesgos](#_Toc52661347)
 
-[3. Análisis de la Situación actual](#_Toc52661348)
+[1.	Descripción del Proyecto	3](#_gjdgxs)
 
-[4. Estudio de Factibilidad](#_Toc52661349)
+[2.	Riesgos	3](#_30j0zll)
 
-[4.1 Factibilidad Técnica](#_Toc52661350)
+[3.	Análisis de la Situación actual	3](#_1fob9te)
 
-[4.2 Factibilidad económica](#_Toc52661351)
+[4.	Estudio de Factibilidad	3](#_3znysh7)
 
-[4.3 Factibilidad Operativa](#_Toc52661352)
+[4.1	Factibilidad Técnica	4](#_2et92p0)
 
-[4.4 Factibilidad Legal](#_Toc52661353)
+[4.2	Factibilidad económica	4](#_tyjcwt)
 
-[4.5 Factibilidad Social](#_Toc52661354)
+[4.3	Factibilidad Operativa	4](#_3dy6vkm)
 
-[4.6 Factibilidad Ambiental](#_Toc52661355)
+[4.4	Factibilidad Legal	4](#_1t3h5sf)
 
-[5. Análisis Financiero](#_Toc52661356)
+[4.5	Factibilidad Social	5](#_4d34og8)
 
-[6. Conclusiones](#_Toc52661357)
+[4.6	Factibilidad Ambiental	5](#_2s8eyo1)
 
+[5.	Análisis Financiero	5](#_17dp8vu)
 
-<div style="page-break-after: always; visibility: hidden">\pagebreak</div>
+[6.	Conclusiones	5](#_3rdcrjn)
 
-**<u>Informe de Factibilidad</u>**
 
-1. <span id="_Toc52661346" class="anchor"></span>**Descripción del Proyecto**
 
-    1.1. Nombre del proyecto
 
-    1.2. Duración del proyecto
 
-    1.3. Descripción
 
-        En que consiste el proyecto/importancia del mismo, contexto en que se va desenvolver
 
-    1.4. Objetivos
 
-        1.4.1 Objetivo general
-        1.4.2 Objetivos Específicos
-            Para cada objetivo específico se indicara que se va a lograr
 
-<div style="page-break-after: always; visibility: hidden">\pagebreak</div>
 
-2. <span id="_Toc52661347" class="anchor"></span>**Riesgos**
 
-    Señale los riesgos que pudieran afectar el éxito del proyecto.}*
 
-<div style="page-break-after: always; visibility: hidden">\pagebreak</div>
 
-3. <span id="_Toc52661348" class="anchor"></span>**Análisis de la Situación actual**
 
-    3.1. Planteamiento del problema
 
-            Describa antecedentes y situación actual, explicando la problemática y/o necesidad que será resuelta con el proyecto propuesto.
+**Informe de Factibilidad**
 
-    3.2. Consideraciones de hardware y software
+1. <a name="_gjdgxs"></a>Descripción del Proyecto
+   1. Nombre del proyecto
 
-            Hardware y software posibles para la implementación, se analizara lo que existe y es alcanzable, se evaluara que tecnología se puede > utilizar en el proyecto.
+      "Sistema de Fusión y Corte de PDFs"
 
-<div style="page-break-after: always; visibility: hidden">\pagebreak</div>
+   1. Duración del proyecto
 
-4. <span id="_Toc52661349" class="anchor"></span>**Estudio de
-    Factibilidad**
+      El proyecto se estima que tendrá una duración de seis meses desde su inicio hasta la implementación completa.
 
-    Describir los resultados que esperan alcanzar del estudio de factibilidad, las actividades que se realizaron para preparar la evaluación de factibilidad y por quien fue aprobado.
+   1. Descripción 
 
-    4.1. <span id="_Toc52661350" class="anchor"></span>Factibilidad Técnica
+      El proyecto consiste en desarrollar una plataforma web que permita a los usuarios realizar dos funciones principales con archivos PDF: cortar y fusionar. Esta plataforma proporcionará una interfaz intuitiva y fácil de usar, que permitirá a los usuarios cargar sus archivos PDF, seleccionar las acciones deseadas y obtener los archivos procesados de manera rápida y eficiente. La importancia de esta plataforma radica en la creciente necesidad de gestionar y manipular archivos PDF de manera ágil y sencilla en entornos laborales y académicos. La plataforma estará disponible en línea, lo que la hace accesible desde cualquier dispositivo con conexión a internet.
 
-        El estudio de viabilidad técnica se enfoca en obtener un entendimiento de los recursos tecnológicos disponibles actualmente y su aplicabilidad a las necesidades que se espera tenga el proyecto. En el caso de tecnología informática esto implica una evaluación del hardware y software y como este puede cubrir las necesidades del sistema propuesto.
+      1\.4 Objetivos
 
-        Realizar una evaluación de la tecnología actual existente y la posibilidad de utilizarla en el desarrollo e implantación del sistema.*
+      `       `1.4.1 Objetivo general
 
-        Describir acerca del hardware (equipos, servidor), software (aplicaciones, navegadores, sistemas operativos, dominio, internet, infraestructura de red física, etc.
+Desarrollar una plataforma web que permita a los usuarios gestionar archivos PDF de forma eficiente, ofreciendo las funciones de cortar y fusionar .
 
-    4.2. <span id="_Toc52661351" class="anchor"></span>Factibilidad Económica
+`        `1.4.2 Objetivos Específicos
 
-        El propósito del estudio de viabilidad económica, es determinar los beneficios económicos del proyecto o sistema propuesto para la organización, en contraposición con los costos.
-        Como se mencionó anteriormente en el estudio de factibilidad técnica wvaluar si la institución (departamento de TI) cuenta con las herramientas necesarias para la implantación del sistema y evaluar si la propuesta requiere o no de una inversión inicial en infraestructura informática.
-        Se plantearán los costos del proyecto.
-        Costeo del Proyecto: Consiste en estimar los costos de los recursos Humanos, materiales o consumibles y/o máquinas) directos para completar las actividades del proyecto}.*
+1) Desarrollar una interfaz de usuario amigable e intuitiva para la carga y manipulación de archivos PDF, asegurando al mismo tiempo la estabilidad y seguridad del sitio.
+1) Implementar la funcionalidad de acortar archivos PDF, permitiendo a los usuarios seleccionar las páginas deseadas de manera segura y estable.
+1) Integrar la funcionalidad de fusionar archivos PDF, garantizando la estabilidad del proceso y la seguridad de los archivos de los usuarios durante la manipulación.
+1. <a name="_30j0zll"></a>Riesgos
+1) Riesgos Tecnológicos:
+- Problemas de compatibilidad entre diferentes navegadores web.
+- Vulnerabilidades de seguridad en el software utilizado para el desarrollo.
+- Limitaciones técnicas que puedan surgir durante la implementación de las funciones de manipulación de archivos PDF.
+1) Riesgos Operativos: 
+- Falta de recursos humanos capacitados para el desarrollo y mantenimiento del sitio web.
+- Interrupciones en el servicio debido a fallas en el servidor o problemas de conectividad.
+- Retrasos en el cronograma debido a cambios en los requisitos del cliente o problemas de comunicación interna.
+1) Riesgos de Seguridad:
+- Vulnerabilidades en la seguridad de la aplicación que podrían ser explotadas por atacantes.
+- Pérdida o filtración de datos confidenciales de los usuarios durante la manipulación de archivos PDF.}
+- Acceso no autorizado a la plataforma por parte de usuarios malintencionados.
+1) Riesgos Financieros:
+- Sobrecostos imprevistos durante el desarrollo y la implementación del proyecto.
+- Fluctuaciones en los costos de los recursos humanos, tecnológicos o de infraestructura.
+- Impacto negativo en el retorno de la inversión debido a problemas de aceptación del mercado o competencia inesperada.
+1) Riesgos Legales y Regulatorios:
+- Incumplimiento de normativas de protección de datos y privacidad de los usuarios.
+- Conflictos legales relacionados con el uso indebido de archivos PDF protegidos por derechos de autor.
+- Cambios en la legislación que puedan afectar la viabilidad legal del proyecto.
 
-        Definir los siguientes costos:
+1. <a name="_1fob9te"></a>Análisis de la Situación actual
+   1. Planteamiento del problema
 
-        4.2.1. Costos Generales
+      En la actualidad, la manipulación de archivos PDF es una tarea común en entornos laborales, académicos y personales. Sin embargo, la falta de herramientas específicas y accesibles para realizar acciones como acortar y fusionar archivos PDF puede generar ineficiencias y dificultades para los usuarios.
 
-                Los costos generales son todos los gastos realizados en accesorios y material de oficina y de uso diario, necesarios para los procesos, tales como, papeles, plumas, cartuchos de impresora, marcadores, computadora etc. Colocar tabla de costos.
+      Los métodos tradicionales para realizar estas tareas suelen ser complicados y requieren el uso de software especializado que no siempre está al alcance de todos los usuarios. Además, algunas soluciones en línea pueden ser poco confiables o no garantizar la seguridad y privacidad de los datos de los usuarios.
 
-        4.2.2. Costos operativos durante el desarrollo 
-        
-                Evaluar costos necesarios para la operatividad de las actividades de la empresa durante el periodo en el que se realizara el proyecto. Los costos de operación pueden ser renta de oficina, agua, luz, teléfono, etc.
+      Por lo tanto, existe una clara necesidad de una plataforma web que ofrezca estas funciones de manera sencilla, rápida y segura, lo que permitirá a los usuarios gestionar sus archivos PDF de manera más eficiente y sin complicaciones.
 
-        4.2.3. Costos del ambiente
+   1. Consideraciones de hardware y software
 
-                Evaluar si se cuenta con los requerimientos técnicos para la implantación del software como el dominio, infraestructura de red, acceso a internet, etc.
+      Para el desarrollo e implementación de la plataforma de gestión de archivos PDF, se requerirá:
 
-        4.2.4. Costos de personal
+- Un servidor web robusto y confiable para alojar la aplicación.
+- Tecnologías de desarrollo web modernas y seguras, como HTML5, CSS3, JavaScript y frameworks como React.js o Angular.
+- Software de gestión de bases de datos para almacenar la información de los usuarios y los archivos PDF procesados de manera segura.
+- Posiblemente, integración con APIs de servicios externos para realizar acciones adicionales, como conversión de archivos o verificación de seguridad.
 
-                Aquí se incluyen los gastos generados por el recurso humano que se necesita para el desarrollo del sistema únicamente.
+Es importante asegurarse de que la infraestructura tecnológica utilizada sea escalable y pueda adaptarse a las necesidades futuras de la plataforma.
 
-                No se considerará personal para la operación y funcionamiento del sistema.
+1. <a name="_3znysh7"></a>Estudio de Factibilidad
+   1. <a name="_2et92p0"></a>Factibilidad Técnica
 
-                Incluir tabla que muestra los gastos correspondientes al personal.
+      El primer paso es evaluar la factibilidad técnica del proyecto. Para esto, se realizará un análisis exhaustivo de los recursos tecnológicos disponibles y de las necesidades específicas del proyecto:
 
-                Indicar organización y roles. Indicar horario de trabajo del personal.
+- Evaluación de la infraestructura de hardware y software existente para determinar su adecuación para el desarrollo y funcionamiento del sitio web de gestión de archivos PDF.
+- Investigación de tecnologías y herramientas disponibles para implementar las funciones requeridas, como la capacidad de acortar, fusionar y dividir archivos PDF.
+- Identificación de posibles desafíos técnicos y soluciones alternativas para abordarlos.
+- Evaluación de la escalabilidad y mantenibilidad del sistema a largo plazo.
+  1. <a name="_tyjcwt"></a>Factibilidad Económica
 
-        4.2.5.  Costos totales del desarrollo del sistema
+     Una vez evaluada la factibilidad técnica, es crucial analizar la viabilidad económica del proyecto. Esto implica estimar los costos asociados con el desarrollo, implementación y operación del sitio web, así como los posibles beneficios económicos que puede generar:
 
-                {Totalizar costos y realizar resumen de costo final del proyecto y la forma de pago.
+     Definir los siguientes costos:
 
-    4.3. <span id="_Toc52661352" class="anchor"></span>Factibilidad Operativa
+1. Costos Generales 
+- Identificación de los costos iniciales de desarrollo, incluyendo la adquisición de software y licencias, contratación de personal técnico y diseño de la plataforma.
+- Estimación de los costos recurrentes, como el mantenimiento del sitio, actualizaciones de software y gastos operativos generales.
 
-        Describir los beneficios del producto y si se tiene la capacidad por parte del cliente para mantener el sistema funcionando y garantizar el buen funcionamiento y su impacto en los usuarios. Lista de interesados.
+  1. Costos operativos durante el desarrollo 
 
-    4.4. <span id="_Toc52661353" class="anchor"></span>Factibilidad Legal
+Evaluación de los costos necesarios para mantener las operaciones durante el período de desarrollo del proyecto, como alquiler de espacio de trabajo, servicios de internet y otros gastos administrativos.
 
-        Determinar si existe conflicto del proyecto con restricciones legales como leyes y regulaciones del país o locales relacionadas con seguridad, protección de datos, conducta de negocio, empleo y adquisiciones.
+1. Costos del ambiente
 
-    4.5. <span id="_Toc52661354" class="anchor"></span>Factibilidad Social 
+   Evaluación de los costos asociados con la infraestructura tecnológica necesaria para alojar y operar el sitio web, como servidores, dominios y certificados de seguridad.
 
-        Evaluar influencias y asuntos de índole social y cultural como el clima político, códigos de conducta y ética*
+1. Costos de personal
 
-    4.6. <span id="_Toc52661355" class="anchor"></span>Factibilidad Ambiental
+Identificación de los roles y responsabilidades del personal necesario para el desarrollo y mantenimiento del sitio web, así como la estimación de los costos asociados con su contratación o dedicación de recursos internos.
 
-        Evaluar influencias y asuntos de índole ambiental como el impacto y repercusión en el medio ambiente.
+1. Costos totales del desarrollo del sistema 
 
-<div style="page-break-after: always; visibility: hidden">\pagebreak</div>
+Se realizará un análisis detallado de todos los costos identificados en las secciones anteriores para calcular el costo total del desarrollo del sistema de gestión de archivos PDF. Esto incluirá una evaluación exhaustiva de todos los costos directos e indirectos asociados con el proyecto, así como la determinación de cualquier costo adicional que pueda surgir durante el ciclo de vida del sistema. Los componentes principales de este análisis incluirán:
 
-5. <span id="_Toc52661356" class="anchor"></span>**Análisis Financiero**
+- Costos directos: Estos incluyen todos los gastos directamente atribuibles al desarrollo del sistema, como la adquisición de hardware y software, los honorarios del personal técnico, los costos de licencias y cualquier otro gasto relacionado con la implementación del proyecto.
+- Costos indirectos: Se considerarán los costos indirectos asociados con el desarrollo del sistema, como los costos administrativos, los gastos generales de la empresa y cualquier otro costo que no esté directamente relacionado con una actividad específica del proyecto pero que contribuya a su realización.
+- Contingencias: Se reservará una cantidad adecuada para contingencias, con el fin de cubrir cualquier imprevisto o cambio en los requisitos del proyecto que pueda surgir durante su desarrollo.
+- Costos totales: Se sumarán todos los costos directos e indirectos, así como las contingencias, para determinar el costo total del desarrollo del sistema. Este será el costo base del proyecto y servirá como referencia para la planificación financiera y la asignación de recursos.
 
-    El plan financiero se ocupa del análisis de ingresos y gastos asociados a cada proyecto, desde el punto de vista del instante temporal en que se producen. Su misión fundamental es detectar situaciones financieramente inadecuadas.
-    Se tiene que estimar financieramente el resultado del proyecto.
+1. <a name="_3dy6vkm"></a>Factibilidad Operativa
 
-    5.1. Justificación de la Inversión
+En esta sección se evaluará la viabilidad operativa del sistema de gestión de archivos PDF. Se considerarán los siguientes aspectos:
 
-        5.1.1. Beneficios del Proyecto
+- Análisis de los beneficios del producto: Se identificarán y describirán los beneficios que el sistema de gestión de archivos PDF proporcionará a los usuarios finales, así como a la organización en su conjunto.
+- Capacidades de mantenimiento y soporte: Se determinará si la organización tiene la capacidad para mantener y brindar soporte técnico al sistema una vez que esté en funcionamiento, garantizando así su operatividad continua.
+- Impacto en los usuarios: Se evaluará cómo el sistema afectará a los usuarios finales y cómo es mitigar posibles impactos negativos durante la implementación y el uso cotidiano.
+- Lista de interesados: Se identificarán todas las partes interesadas relevantes y se determinará su grado de participación y apoyo al proyecto.
 
-            El beneficio se calcula como el margen económico menos los costes de oportunidad, que son los márgenes que hubieran podido obtenerse de haber dedicado el capital y el esfuerzo a otras actividades.
-            El beneficio, obtenido lícitamente, no es sólo una recompensa a la inversión, al esfuerzo y al riesgo asumidos por el empresario, sino que también es un factor esencial para que las empresas sigan en el  mercado e incorporen nuevas inversiones al tejido industrial y social de las naciones.
-            Describir beneficios tangibles e intangibles*
-            Beneficios tangibles: son de fácil cuantificación, generalmente están relacionados con la reducción de recursos o talento humano.
-            Beneficios intangibles: no son fácilmente cuantificables y están relacionados con elementos o mejora en otros procesos de la organización.
->
-            Ejemplo de beneficios:
+1. <a name="_1t3h5sf"></a>Factibilidad Legal
 
-            - Mejoras en la eficiencia del área bajo estudio.
-            - Reducción de personal.
-            - Reducción de futuras inversiones y costos.
-            - Disponibilidad del recurso humano.
-            - Mejoras en planeación, control y uso de recursos.
-            - Suministro oportuno de insumos para las operaciones.
-            - Cumplimiento de requerimientos gubernamentales.
-            - Toma acertada de decisiones.
-            - Disponibilidad de información apropiada.
-            - Aumento en la confiabilidad de la información.
-            - Mejor servicio al cliente externo e interno
-            - Logro de ventajas competitivas.
-            - Valor agregado a un producto de la compañía.
-        
-        5.1.2. Criterios de Inversión
+En esta sección se evaluarán los aspectos legales que puedan afectar la viabilidad del proyecto:
 
-            5.1.2.1. Relación Beneficio/Costo (B/C)
+- Análisis de restricciones legales: Se identificarán y evaluarán las leyes y regulaciones locales, nacionales e internacionales que puedan afectar el desarrollo y la implementación del sistema de gestión de archivos PDF.
+- Cumplimiento normativo: Se determinará si el proyecto cumple con todas las normativas y regulaciones aplicables, incluyendo aquellas relacionadas con la protección de datos, seguridad informática y propiedad intelectual.
 
-                En base a los costos y beneficios identificados se evalúa si es factible el desarrollo del proyecto. 
-                Si se presentan varias alternativas de solución se evaluará cada una de ellas para determinar la mejor solución desde el punto de vista del > retorno de la inversión
-                El B/C si es mayor a uno, se acepta el proyecto; si el B/C es igual a uno es indiferente aceptar o rechazar el proyecto y si el B/C es menor a uno se rechaza el proyecto
 
-            5.1.2.2. Valor Actual Neto (VAN)
-            
-                Valor actual de los beneficios netos que genera el proyecto. Si el VAN es mayor que cero, se acepta el proyecto; si el VAN es igual a cero es indiferente aceptar o rechazar el proyecto y si el VAN es menor que cero se rechaza el proyecto
 
-            5.1.2.3 Tasa Interna de Retorno (TIR)*
-                Es la tasa porcentual que indica la rentabilidad promedio anual que genera el capital invertido en el proyecto. Si la TIR es mayor que el costo de oportunidad se acepta el proyecto, si la TIR es igual al costo de oportunidad es indiferente aceptar o rechazar el proyecto, si la TIR es menor que el costo de oportunidad se rechaza el proyecto
+1. <a name="_4d34og8"></a>Factibilidad Social
 
-                Costo de oportunidad de capital (COK) es la tasa de interés que podría haber obtenido con el dinero invertido en el proyecto
+   En esta sección se evaluarán los aspectos sociales y culturales que puedan influir en la viabilidad del proyecto:
 
-<div style="page-break-after: always; visibility: hidden">\pagebreak</div>
+- Análisis de impacto social: Se analizarán los posibles efectos del sistema de 
+- gestión de archivos PDF en la sociedad y en las comunidades afectadas por su implementación.
+- Consideraciones éticas y culturales: Se evaluarán los valores éticos y culturales relevantes para el proyecto y se determinará cómo se abordarán en el diseño e implementación del sistema.
 
-6. <span id="_Toc52661357" class="anchor"></span>**Conclusiones**
+1. <a name="_2s8eyo1"></a>Factibilidad Ambiental
 
-Explicar los resultados del análisis de factibilidad que nos indican si el proyecto es viable y factible.
+   En esta sección se evaluarán los aspectos ambientales que puedan influir en la viabilidad del proyecto:
+
+- Evaluación de impacto ambiental: Se analizarán los posibles efectos del sistema de gestión de archivos PDF en el medio ambiente, incluyendo la generación de residuos, el consumo de energía y otros aspectos relevantes.
+- Cumplimiento de regulaciones ambientales: Se determinará si el proyecto cumple con todas las regulaciones y normativas ambientales aplicables y cómo se mitigarán los posibles impactos negativos.
+1. Análisis Financiero
+
+   1. Justificación de la Inversión
+
+      *5.1.1 Beneficios* del Proyecto
+
+
+*Los beneficios tangibles de este proyecto serían los siguientes:*
+
+*Mejora en la eficiencia: La plataforma permitirá a los usuarios cortar y fusionar archivos PDF de manera rápida y sencilla, lo que mejorará la eficiencia en la manipulación de documentos digitales.*
+
+*Reducción de personal: Al automatizar tareas de corte y fusión de PDF, es posible reducir la necesidad de personal dedicado a estas actividades, lo que puede generar ahorros en costos laborales.*
+
+*Reducción de futuras inversiones y costos: Al proporcionar una solución en línea, se evita la necesidad de invertir en software o herramientas adicionales para manipular archivos PDF, lo que puede resultar en ahorros significativos a largo plazo.*
+
+*Disponibilidad del recurso humano: Al liberar a los empleados de tareas repetitivas relacionadas con la manipulación de PDF, se puede redirigir su tiempo y habilidades hacia actividades más estratégicas y de mayor valor para la organización.*
+
+*Mejoras en la planeación, control y uso de recursos: La plataforma permitirá a los usuarios tener un mayor control sobre sus archivos PDF, lo que facilitará la planificación y optimización de recursos en el manejo de documentos digitales.*
+
+*Mejor servicio al cliente externo e interno: Al proporcionar una solución eficiente y fácil de usar para la manipulación de archivos PDF, se mejora la experiencia del cliente y la satisfacción del usuario interno, lo que puede conducir a una mayor fidelidad y retención de clientes.*
+
+*En cuanto a los beneficios intangibles, se pueden mencionar:*
+
+*Mejora en otros procesos de la organización: Al agilizar la manipulación de archivos PDF, se pueden mejorar otros procesos relacionados, como la gestión de documentos, la colaboración en línea y la comunicación interna.*
+
+*Toma acertada de decisiones: Al contar con una plataforma que facilita la manipulación de archivos PDF, se pueden obtener y analizar datos de manera más rápida y precisa, lo que ayuda en la toma de decisiones informadas.*
+
+*Valor agregado al producto de la compañía: Al ofrecer una solución que simplifica y mejora la gestión de archivos PDF, la compañía puede diferenciarse en el mercado y agregar valor a su producto o servicio principal.*
+
+*Es importante tener en cuenta que estos beneficios pueden variar según las necesidades y circunstancias específicas de cada organización o usuario.*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5\.1.2 Criterios de Inversión
+
+|Tabla||||
+| :-: | :- | :- | :- |
+|Nº Meses|Ingresos |Egresos|Flujo de Efectivo Neto|
+|0||20000|-20000|
+|1|5000|10000|-5000|
+|2|5000|10000|-5000|
+|3|7000|5000|2000|
+|4|5000|5000|0|
+|5|8000|3000|5000|
+|6|10000|2500|7500|
+
+*5.1.2.1 Relación Beneficio/Costo (B/C)*
+
+*Para calcular la relación beneficio/costo (B/C), sumamos todos los beneficios y todos los costos durante los seis meses:*
+
+*Total de beneficios = 5,000 + 5,000 + 7,000 + 5,000 + 8,000 + 10,000 = 40,000 Soles*
+
+*Total de costos = 10,000 + 10,000 + 5,000 + 5,000 + 3,000 + 2,500 = 35,500 Soles*
+
+*Relación B/C = Total de beneficios / Total de costos*
+
+*Relación B/C = 40,000 / 35,500*
+
+*Relación B/C ≈ 1.13*
+
+*Una relación B/C mayor que 1 indica que los beneficios superan los costos, lo que sugiere que el proyecto es financieramente viable.*
+
+`                    `*5.1.2.2 Valor Actual Neto (VAN)*
+
+*Para calcular el VAN, necesitamos descontar los flujos de efectivo futuros a una tasa de descuento adecuada. Supongamos una tasa de descuento del 8%:*
+
+*VAN = -20,000 + (5,000 / (1 + 0.08)^1) + (5,000 / (1 + 0.08)^2) + (7,000 / (1 + 0.08)^3) + (5,000 / (1 + 0.08)^4) + (8,000 / (1 + 0.08)^5) + (10,000 / (1 + 0.08)^6)*
+
+*Calculando el VAN:*
+
+*VAN ≈ -20,000 + 4,629.63 + 4,284.93 + 5,884.92 + 4,329.00 + 6,173.68 + 7,044.67*
+
+*VAN ≈ 12,317.83 Soles*
+
+*Un VAN positivo indica que el proyecto podría generar valor agregado después de descontar los flujos de efectivo futuros a una tasa de descuento del 8%.*
+
+*5.1.2.3 Tasa Interna de Retorno (TIR)*
+
+
+*Entendido, sin problema. Utilizando los flujos de efectivo proporcionados, la TIR de la inversión es aproximadamente del 27.06%.*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1. <a name="_3rdcrjn"></a>Conclusiones 
+
+   *Basándonos en los criterios de inversión evaluados, el proyecto muestra indicadores financieros favorables. La relación beneficio/costo (B/C) ligeramente superior a 1 sugiere que los beneficios superan los costos, lo que indica viabilidad financiera. Además, el Valor Actual Neto (VAN) positivo de aproximadamente 12,317.83 soles revela que el proyecto puede generar valor después de descontar los flujos de efectivo futuros a una tasa del 8%. Por último, la Tasa Interna de Retorno (TIR) del 27.06% sugiere un rendimiento atractivo en comparación con otras opciones de inversión. En conjunto, estos indicadores respaldan la viabilidad financiera del proyecto, aunque es crucial considerar otros factores, como el riesgo y las condiciones del mercado, antes de tomar una decisión de inversión.*
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,208 @@
+{
+  "source_base_path": "C:/Users/HP/Documents/lareal/GestorArchivosOnlineparaerick/GestorArchivosOnlineparaerick/GestorArchivosOnline",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GestorArchivosOnline.Domain.CortadorPDF.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GestorArchivosOnline.Domain.CortadorPDF.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GestorArchivosOnline.Domain.FusionadorPDF.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GestorArchivosOnline.Domain.FusionadorPDF.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GestorArchivosOnline.Domain.ListaDeOperacionesSuscripcionUsuario.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GestorArchivosOnline.Domain.ListaDeOperacionesSuscripcionUsuario.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GestorArchivosOnline.Domain.OperacionPDF.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GestorArchivosOnline.Domain.OperacionPDF.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GestorArchivosOnline.Domain.PDF.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GestorArchivosOnline.Domain.PDF.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GestorArchivosOnline.Domain.TipoSuscripcion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GestorArchivosOnline.Domain.TipoSuscripcion.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GestorArchivosOnline.Domain.Usuario.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GestorArchivosOnline.Domain.Usuario.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GestorArchivosOnline.Domain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GestorArchivosOnline.Domain.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GestorArchivosOnline.Tests.GestorArchivosTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GestorArchivosOnline.Tests.GestorArchivosTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GestorArchivosOnline.Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GestorArchivosOnline.Tests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "output.md",
+      "output": {
+        ".html": {
+          "relative_path": "output.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

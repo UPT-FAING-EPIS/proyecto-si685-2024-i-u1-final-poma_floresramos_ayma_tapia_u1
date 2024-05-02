@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: GestorArchivosOnline.Tests
+  commentId: N:GestorArchivosOnline.Tests
+  id: GestorArchivosOnline.Tests
+  children:
+  - GestorArchivosOnline.Tests.GestorArchivosTests
+  langs:
+  - csharp
+  - vb
+  name: GestorArchivosOnline.Tests
+  nameWithType: GestorArchivosOnline.Tests
+  fullName: GestorArchivosOnline.Tests
+  type: Namespace
+  assemblies:
+  - GestorArchivosOnline.Domain.Tests
+references:
+- uid: GestorArchivosOnline.Tests.GestorArchivosTests
+  commentId: T:GestorArchivosOnline.Tests.GestorArchivosTests
+  href: GestorArchivosOnline.Tests.GestorArchivosTests.html
+  name: GestorArchivosTests
+  nameWithType: GestorArchivosTests
+  fullName: GestorArchivosOnline.Tests.GestorArchivosTests

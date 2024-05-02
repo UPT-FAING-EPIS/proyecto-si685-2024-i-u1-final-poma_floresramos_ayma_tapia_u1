@@ -1,0 +1,99 @@
+### YamlMime:ManagedReference
+items:
+- uid: GestorArchivosOnline.Domain
+  commentId: N:GestorArchivosOnline.Domain
+  id: GestorArchivosOnline.Domain
+  children:
+  - GestorArchivosOnline.Domain.CortadorPDF
+  - GestorArchivosOnline.Domain.DetalleSuscripcionUsuario
+  - GestorArchivosOnline.Domain.FusionadorPDF
+  - GestorArchivosOnline.Domain.ListaDeOperacionesSuscripcionUsuario
+  - GestorArchivosOnline.Domain.OperacionPDF
+  - GestorArchivosOnline.Domain.PDF
+  - GestorArchivosOnline.Domain.TipoSuscripcion
+  - GestorArchivosOnline.Domain.Usuario
+  langs:
+  - csharp
+  - vb
+  name: GestorArchivosOnline.Domain
+  nameWithType: GestorArchivosOnline.Domain
+  fullName: GestorArchivosOnline.Domain
+  type: Namespace
+  assemblies:
+  - GestorArchivosOnline.Domain
+references:
+- uid: GestorArchivosOnline.Domain.CortadorPDF
+  commentId: T:GestorArchivosOnline.Domain.CortadorPDF
+  href: GestorArchivosOnline.Domain.CortadorPDF.html
+  name: CortadorPDF
+  nameWithType: CortadorPDF
+  fullName: GestorArchivosOnline.Domain.CortadorPDF
+- uid: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario
+  commentId: T:GestorArchivosOnline.Domain.DetalleSuscripcionUsuario
+  parent: GestorArchivosOnline.Domain
+  href: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.html
+  name: DetalleSuscripcionUsuario
+  nameWithType: DetalleSuscripcionUsuario
+  fullName: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario
+- uid: GestorArchivosOnline.Domain.FusionadorPDF
+  commentId: T:GestorArchivosOnline.Domain.FusionadorPDF
+  href: GestorArchivosOnline.Domain.FusionadorPDF.html
+  name: FusionadorPDF
+  nameWithType: FusionadorPDF
+  fullName: GestorArchivosOnline.Domain.FusionadorPDF
+- uid: GestorArchivosOnline.Domain.ListaDeOperacionesSuscripcionUsuario
+  commentId: T:GestorArchivosOnline.Domain.ListaDeOperacionesSuscripcionUsuario
+  href: GestorArchivosOnline.Domain.ListaDeOperacionesSuscripcionUsuario.html
+  name: ListaDeOperacionesSuscripcionUsuario
+  nameWithType: ListaDeOperacionesSuscripcionUsuario
+  fullName: GestorArchivosOnline.Domain.ListaDeOperacionesSuscripcionUsuario
+- uid: GestorArchivosOnline.Domain.OperacionPDF
+  commentId: T:GestorArchivosOnline.Domain.OperacionPDF
+  parent: GestorArchivosOnline.Domain
+  href: GestorArchivosOnline.Domain.OperacionPDF.html
+  name: OperacionPDF
+  nameWithType: OperacionPDF
+  fullName: GestorArchivosOnline.Domain.OperacionPDF
+- uid: GestorArchivosOnline.Domain.PDF
+  commentId: T:GestorArchivosOnline.Domain.PDF
+  parent: GestorArchivosOnline.Domain
+  href: GestorArchivosOnline.Domain.PDF.html
+  name: PDF
+  nameWithType: PDF
+  fullName: GestorArchivosOnline.Domain.PDF
+- uid: GestorArchivosOnline.Domain.TipoSuscripcion
+  commentId: T:GestorArchivosOnline.Domain.TipoSuscripcion
+  parent: GestorArchivosOnline.Domain
+  href: GestorArchivosOnline.Domain.TipoSuscripcion.html
+  name: TipoSuscripcion
+  nameWithType: TipoSuscripcion
+  fullName: GestorArchivosOnline.Domain.TipoSuscripcion
+- uid: GestorArchivosOnline.Domain.Usuario
+  commentId: T:GestorArchivosOnline.Domain.Usuario
+  parent: GestorArchivosOnline.Domain
+  href: GestorArchivosOnline.Domain.Usuario.html
+  name: Usuario
+  nameWithType: Usuario
+  fullName: GestorArchivosOnline.Domain.Usuario
+- uid: GestorArchivosOnline.Domain
+  commentId: N:GestorArchivosOnline.Domain
+  href: GestorArchivosOnline.html
+  name: GestorArchivosOnline.Domain
+  nameWithType: GestorArchivosOnline.Domain
+  fullName: GestorArchivosOnline.Domain
+  spec.csharp:
+  - uid: GestorArchivosOnline
+    name: GestorArchivosOnline
+    href: GestorArchivosOnline.html
+  - name: .
+  - uid: GestorArchivosOnline.Domain
+    name: Domain
+    href: GestorArchivosOnline.Domain.html
+  spec.vb:
+  - uid: GestorArchivosOnline
+    name: GestorArchivosOnline
+    href: GestorArchivosOnline.html
+  - name: .
+  - uid: GestorArchivosOnline.Domain
+    name: Domain
+    href: GestorArchivosOnline.Domain.html

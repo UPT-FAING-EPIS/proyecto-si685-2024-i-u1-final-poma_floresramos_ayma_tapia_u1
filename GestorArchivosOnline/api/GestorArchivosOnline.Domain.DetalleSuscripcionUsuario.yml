@@ -1,0 +1,633 @@
+### YamlMime:ManagedReference
+items:
+- uid: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario
+  commentId: T:GestorArchivosOnline.Domain.DetalleSuscripcionUsuario
+  id: DetalleSuscripcionUsuario
+  parent: GestorArchivosOnline.Domain
+  children:
+  - GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.#ctor(GestorArchivosOnline.Domain.Usuario,GestorArchivosOnline.Domain.TipoSuscripcion,System.DateTime,System.DateTime,System.Single)
+  - GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.ActualizarSuscripcion
+  - GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.AgregarOperacionPDF(GestorArchivosOnline.Domain.OperacionPDF)
+  - GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.ComprarSuscripcion
+  - GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.FechaFinal
+  - GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.FechaInicio
+  - GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.Precio
+  - GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.TipoSuscripcion
+  - GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.Usuario
+  langs:
+  - csharp
+  - vb
+  name: DetalleSuscripcionUsuario
+  nameWithType: DetalleSuscripcionUsuario
+  fullName: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario
+  type: Class
+  source:
+    id: DetalleSuscripcionUsuario
+    path: C:\Users\HP\Documents\lareal\GestorArchivosOnlineparaerick\GestorArchivosOnlineparaerick\GestorArchivosOnline\GestorArchivosOnline.Domain\DetalleSuscripcionUsuario.cs
+    startLine: 4
+  assemblies:
+  - GestorArchivosOnline.Domain
+  namespace: GestorArchivosOnline.Domain
+  syntax:
+    content: public class DetalleSuscripcionUsuario
+    content.vb: Public Class DetalleSuscripcionUsuario
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.Usuario
+  commentId: P:GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.Usuario
+  id: Usuario
+  parent: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario
+  langs:
+  - csharp
+  - vb
+  name: Usuario
+  nameWithType: DetalleSuscripcionUsuario.Usuario
+  fullName: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.Usuario
+  type: Property
+  source:
+    id: Usuario
+    path: C:\Users\HP\Documents\lareal\GestorArchivosOnlineparaerick\GestorArchivosOnlineparaerick\GestorArchivosOnline\GestorArchivosOnline.Domain\DetalleSuscripcionUsuario.cs
+    startLine: 6
+  assemblies:
+  - GestorArchivosOnline.Domain
+  namespace: GestorArchivosOnline.Domain
+  syntax:
+    content: public Usuario Usuario { get; }
+    parameters: []
+    return:
+      type: GestorArchivosOnline.Domain.Usuario
+    content.vb: Public Property Usuario As Usuario
+  overload: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.Usuario*
+- uid: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.TipoSuscripcion
+  commentId: P:GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.TipoSuscripcion
+  id: TipoSuscripcion
+  parent: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario
+  langs:
+  - csharp
+  - vb
+  name: TipoSuscripcion
+  nameWithType: DetalleSuscripcionUsuario.TipoSuscripcion
+  fullName: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.TipoSuscripcion
+  type: Property
+  source:
+    id: TipoSuscripcion
+    path: C:\Users\HP\Documents\lareal\GestorArchivosOnlineparaerick\GestorArchivosOnlineparaerick\GestorArchivosOnline\GestorArchivosOnline.Domain\DetalleSuscripcionUsuario.cs
+    startLine: 7
+  assemblies:
+  - GestorArchivosOnline.Domain
+  namespace: GestorArchivosOnline.Domain
+  syntax:
+    content: public TipoSuscripcion TipoSuscripcion { get; }
+    parameters: []
+    return:
+      type: GestorArchivosOnline.Domain.TipoSuscripcion
+    content.vb: Public Property TipoSuscripcion As TipoSuscripcion
+  overload: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.TipoSuscripcion*
+- uid: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.FechaInicio
+  commentId: P:GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.FechaInicio
+  id: FechaInicio
+  parent: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario
+  langs:
+  - csharp
+  - vb
+  name: FechaInicio
+  nameWithType: DetalleSuscripcionUsuario.FechaInicio
+  fullName: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.FechaInicio
+  type: Property
+  source:
+    id: FechaInicio
+    path: C:\Users\HP\Documents\lareal\GestorArchivosOnlineparaerick\GestorArchivosOnlineparaerick\GestorArchivosOnline\GestorArchivosOnline.Domain\DetalleSuscripcionUsuario.cs
+    startLine: 8
+  assemblies:
+  - GestorArchivosOnline.Domain
+  namespace: GestorArchivosOnline.Domain
+  syntax:
+    content: public DateTime FechaInicio { get; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property FechaInicio As Date
+  overload: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.FechaInicio*
+- uid: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.FechaFinal
+  commentId: P:GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.FechaFinal
+  id: FechaFinal
+  parent: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario
+  langs:
+  - csharp
+  - vb
+  name: FechaFinal
+  nameWithType: DetalleSuscripcionUsuario.FechaFinal
+  fullName: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.FechaFinal
+  type: Property
+  source:
+    id: FechaFinal
+    path: C:\Users\HP\Documents\lareal\GestorArchivosOnlineparaerick\GestorArchivosOnlineparaerick\GestorArchivosOnline\GestorArchivosOnline.Domain\DetalleSuscripcionUsuario.cs
+    startLine: 9
+  assemblies:
+  - GestorArchivosOnline.Domain
+  namespace: GestorArchivosOnline.Domain
+  syntax:
+    content: public DateTime FechaFinal { get; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property FechaFinal As Date
+  overload: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.FechaFinal*
+- uid: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.Precio
+  commentId: P:GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.Precio
+  id: Precio
+  parent: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario
+  langs:
+  - csharp
+  - vb
+  name: Precio
+  nameWithType: DetalleSuscripcionUsuario.Precio
+  fullName: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.Precio
+  type: Property
+  source:
+    id: Precio
+    path: C:\Users\HP\Documents\lareal\GestorArchivosOnlineparaerick\GestorArchivosOnlineparaerick\GestorArchivosOnline\GestorArchivosOnline.Domain\DetalleSuscripcionUsuario.cs
+    startLine: 10
+  assemblies:
+  - GestorArchivosOnline.Domain
+  namespace: GestorArchivosOnline.Domain
+  syntax:
+    content: public float Precio { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Precio As Single
+  overload: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.Precio*
+- uid: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.#ctor(GestorArchivosOnline.Domain.Usuario,GestorArchivosOnline.Domain.TipoSuscripcion,System.DateTime,System.DateTime,System.Single)
+  commentId: M:GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.#ctor(GestorArchivosOnline.Domain.Usuario,GestorArchivosOnline.Domain.TipoSuscripcion,System.DateTime,System.DateTime,System.Single)
+  id: '#ctor(GestorArchivosOnline.Domain.Usuario,GestorArchivosOnline.Domain.TipoSuscripcion,System.DateTime,System.DateTime,System.Single)'
+  parent: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario
+  langs:
+  - csharp
+  - vb
+  name: DetalleSuscripcionUsuario(Usuario, TipoSuscripcion, DateTime, DateTime, float)
+  nameWithType: DetalleSuscripcionUsuario.DetalleSuscripcionUsuario(Usuario, TipoSuscripcion, DateTime, DateTime, float)
+  fullName: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.DetalleSuscripcionUsuario(GestorArchivosOnline.Domain.Usuario, GestorArchivosOnline.Domain.TipoSuscripcion, System.DateTime, System.DateTime, float)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\HP\Documents\lareal\GestorArchivosOnlineparaerick\GestorArchivosOnlineparaerick\GestorArchivosOnline\GestorArchivosOnline.Domain\DetalleSuscripcionUsuario.cs
+    startLine: 12
+  assemblies:
+  - GestorArchivosOnline.Domain
+  namespace: GestorArchivosOnline.Domain
+  syntax:
+    content: public DetalleSuscripcionUsuario(Usuario usuario, TipoSuscripcion tipoSuscripcion, DateTime fechaInicio, DateTime fechaFinal, float precio)
+    parameters:
+    - id: usuario
+      type: GestorArchivosOnline.Domain.Usuario
+    - id: tipoSuscripcion
+      type: GestorArchivosOnline.Domain.TipoSuscripcion
+    - id: fechaInicio
+      type: System.DateTime
+    - id: fechaFinal
+      type: System.DateTime
+    - id: precio
+      type: System.Single
+    content.vb: Public Sub New(usuario As Usuario, tipoSuscripcion As TipoSuscripcion, fechaInicio As Date, fechaFinal As Date, precio As Single)
+  overload: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.#ctor*
+  nameWithType.vb: DetalleSuscripcionUsuario.New(Usuario, TipoSuscripcion, Date, Date, Single)
+  fullName.vb: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.New(GestorArchivosOnline.Domain.Usuario, GestorArchivosOnline.Domain.TipoSuscripcion, Date, Date, Single)
+  name.vb: New(Usuario, TipoSuscripcion, Date, Date, Single)
+- uid: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.ComprarSuscripcion
+  commentId: M:GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.ComprarSuscripcion
+  id: ComprarSuscripcion
+  parent: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario
+  langs:
+  - csharp
+  - vb
+  name: ComprarSuscripcion()
+  nameWithType: DetalleSuscripcionUsuario.ComprarSuscripcion()
+  fullName: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.ComprarSuscripcion()
+  type: Method
+  source:
+    id: ComprarSuscripcion
+    path: C:\Users\HP\Documents\lareal\GestorArchivosOnlineparaerick\GestorArchivosOnlineparaerick\GestorArchivosOnline\GestorArchivosOnline.Domain\DetalleSuscripcionUsuario.cs
+    startLine: 22
+  assemblies:
+  - GestorArchivosOnline.Domain
+  namespace: GestorArchivosOnline.Domain
+  syntax:
+    content: public void ComprarSuscripcion()
+    content.vb: Public Sub ComprarSuscripcion()
+  overload: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.ComprarSuscripcion*
+- uid: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.ActualizarSuscripcion
+  commentId: M:GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.ActualizarSuscripcion
+  id: ActualizarSuscripcion
+  parent: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario
+  langs:
+  - csharp
+  - vb
+  name: ActualizarSuscripcion()
+  nameWithType: DetalleSuscripcionUsuario.ActualizarSuscripcion()
+  fullName: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.ActualizarSuscripcion()
+  type: Method
+  source:
+    id: ActualizarSuscripcion
+    path: C:\Users\HP\Documents\lareal\GestorArchivosOnlineparaerick\GestorArchivosOnlineparaerick\GestorArchivosOnline\GestorArchivosOnline.Domain\DetalleSuscripcionUsuario.cs
+    startLine: 27
+  assemblies:
+  - GestorArchivosOnline.Domain
+  namespace: GestorArchivosOnline.Domain
+  syntax:
+    content: public void ActualizarSuscripcion()
+    content.vb: Public Sub ActualizarSuscripcion()
+  overload: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.ActualizarSuscripcion*
+- uid: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.AgregarOperacionPDF(GestorArchivosOnline.Domain.OperacionPDF)
+  commentId: M:GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.AgregarOperacionPDF(GestorArchivosOnline.Domain.OperacionPDF)
+  id: AgregarOperacionPDF(GestorArchivosOnline.Domain.OperacionPDF)
+  parent: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario
+  langs:
+  - csharp
+  - vb
+  name: AgregarOperacionPDF(OperacionPDF)
+  nameWithType: DetalleSuscripcionUsuario.AgregarOperacionPDF(OperacionPDF)
+  fullName: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.AgregarOperacionPDF(GestorArchivosOnline.Domain.OperacionPDF)
+  type: Method
+  source:
+    id: AgregarOperacionPDF
+    path: C:\Users\HP\Documents\lareal\GestorArchivosOnlineparaerick\GestorArchivosOnlineparaerick\GestorArchivosOnline\GestorArchivosOnline.Domain\DetalleSuscripcionUsuario.cs
+    startLine: 32
+  assemblies:
+  - GestorArchivosOnline.Domain
+  namespace: GestorArchivosOnline.Domain
+  syntax:
+    content: public void AgregarOperacionPDF(OperacionPDF operacion)
+    parameters:
+    - id: operacion
+      type: GestorArchivosOnline.Domain.OperacionPDF
+    content.vb: Public Sub AgregarOperacionPDF(operacion As OperacionPDF)
+  overload: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.AgregarOperacionPDF*
+references:
+- uid: GestorArchivosOnline.Domain
+  commentId: N:GestorArchivosOnline.Domain
+  href: GestorArchivosOnline.html
+  name: GestorArchivosOnline.Domain
+  nameWithType: GestorArchivosOnline.Domain
+  fullName: GestorArchivosOnline.Domain
+  spec.csharp:
+  - uid: GestorArchivosOnline
+    name: GestorArchivosOnline
+    href: GestorArchivosOnline.html
+  - name: .
+  - uid: GestorArchivosOnline.Domain
+    name: Domain
+    href: GestorArchivosOnline.Domain.html
+  spec.vb:
+  - uid: GestorArchivosOnline
+    name: GestorArchivosOnline
+    href: GestorArchivosOnline.html
+  - name: .
+  - uid: GestorArchivosOnline.Domain
+    name: Domain
+    href: GestorArchivosOnline.Domain.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.Usuario*
+  commentId: Overload:GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.Usuario
+  href: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.html#GestorArchivosOnline_Domain_DetalleSuscripcionUsuario_Usuario
+  name: Usuario
+  nameWithType: DetalleSuscripcionUsuario.Usuario
+  fullName: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.Usuario
+- uid: GestorArchivosOnline.Domain.Usuario
+  commentId: T:GestorArchivosOnline.Domain.Usuario
+  parent: GestorArchivosOnline.Domain
+  href: GestorArchivosOnline.Domain.Usuario.html
+  name: Usuario
+  nameWithType: Usuario
+  fullName: GestorArchivosOnline.Domain.Usuario
+- uid: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.TipoSuscripcion*
+  commentId: Overload:GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.TipoSuscripcion
+  href: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.html#GestorArchivosOnline_Domain_DetalleSuscripcionUsuario_TipoSuscripcion
+  name: TipoSuscripcion
+  nameWithType: DetalleSuscripcionUsuario.TipoSuscripcion
+  fullName: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.TipoSuscripcion
+- uid: GestorArchivosOnline.Domain.TipoSuscripcion
+  commentId: T:GestorArchivosOnline.Domain.TipoSuscripcion
+  parent: GestorArchivosOnline.Domain
+  href: GestorArchivosOnline.Domain.TipoSuscripcion.html
+  name: TipoSuscripcion
+  nameWithType: TipoSuscripcion
+  fullName: GestorArchivosOnline.Domain.TipoSuscripcion
+- uid: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.FechaInicio*
+  commentId: Overload:GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.FechaInicio
+  href: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.html#GestorArchivosOnline_Domain_DetalleSuscripcionUsuario_FechaInicio
+  name: FechaInicio
+  nameWithType: DetalleSuscripcionUsuario.FechaInicio
+  fullName: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.FechaInicio
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
+- uid: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.FechaFinal*
+  commentId: Overload:GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.FechaFinal
+  href: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.html#GestorArchivosOnline_Domain_DetalleSuscripcionUsuario_FechaFinal
+  name: FechaFinal
+  nameWithType: DetalleSuscripcionUsuario.FechaFinal
+  fullName: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.FechaFinal
+- uid: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.Precio*
+  commentId: Overload:GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.Precio
+  href: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.html#GestorArchivosOnline_Domain_DetalleSuscripcionUsuario_Precio
+  name: Precio
+  nameWithType: DetalleSuscripcionUsuario.Precio
+  fullName: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.Precio
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.#ctor*
+  commentId: Overload:GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.#ctor
+  href: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.html#GestorArchivosOnline_Domain_DetalleSuscripcionUsuario__ctor_GestorArchivosOnline_Domain_Usuario_GestorArchivosOnline_Domain_TipoSuscripcion_System_DateTime_System_DateTime_System_Single_
+  name: DetalleSuscripcionUsuario
+  nameWithType: DetalleSuscripcionUsuario.DetalleSuscripcionUsuario
+  fullName: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.DetalleSuscripcionUsuario
+  nameWithType.vb: DetalleSuscripcionUsuario.New
+  fullName.vb: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.New
+  name.vb: New
+- uid: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.ComprarSuscripcion*
+  commentId: Overload:GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.ComprarSuscripcion
+  href: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.html#GestorArchivosOnline_Domain_DetalleSuscripcionUsuario_ComprarSuscripcion
+  name: ComprarSuscripcion
+  nameWithType: DetalleSuscripcionUsuario.ComprarSuscripcion
+  fullName: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.ComprarSuscripcion
+- uid: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.ActualizarSuscripcion*
+  commentId: Overload:GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.ActualizarSuscripcion
+  href: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.html#GestorArchivosOnline_Domain_DetalleSuscripcionUsuario_ActualizarSuscripcion
+  name: ActualizarSuscripcion
+  nameWithType: DetalleSuscripcionUsuario.ActualizarSuscripcion
+  fullName: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.ActualizarSuscripcion
+- uid: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.AgregarOperacionPDF*
+  commentId: Overload:GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.AgregarOperacionPDF
+  href: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.html#GestorArchivosOnline_Domain_DetalleSuscripcionUsuario_AgregarOperacionPDF_GestorArchivosOnline_Domain_OperacionPDF_
+  name: AgregarOperacionPDF
+  nameWithType: DetalleSuscripcionUsuario.AgregarOperacionPDF
+  fullName: GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.AgregarOperacionPDF
+- uid: GestorArchivosOnline.Domain.OperacionPDF
+  commentId: T:GestorArchivosOnline.Domain.OperacionPDF
+  parent: GestorArchivosOnline.Domain
+  href: GestorArchivosOnline.Domain.OperacionPDF.html
+  name: OperacionPDF
+  nameWithType: OperacionPDF
+  fullName: GestorArchivosOnline.Domain.OperacionPDF

@@ -1,0 +1,77 @@
+{
+  "api/GestorArchivosOnline.Domain.CortadorPDF.html": {
+    "href": "api/GestorArchivosOnline.Domain.CortadorPDF.html",
+    "title": "Class CortadorPDF",
+    "keywords": "Class CortadorPDF Namespace GestorArchivosOnline.Domain Assembly GestorArchivosOnline.Domain.dll public class CortadorPDF : OperacionPDF Inheritance object OperacionPDF CortadorPDF Inherited Members OperacionPDF.resultado2 OperacionPDF.resultado object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields pdfOriginal public PDF pdfOriginal Field Value PDF rangoPaginas public string rangoPaginas Field Value string Methods RealizarOperacion() public override string RealizarOperacion() Returns string SeleccionarPaginas(string) public void SeleccionarPaginas(string rango) Parameters rango string"
+  },
+  "api/GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.html": {
+    "href": "api/GestorArchivosOnline.Domain.DetalleSuscripcionUsuario.html",
+    "title": "Class DetalleSuscripcionUsuario",
+    "keywords": "Class DetalleSuscripcionUsuario Namespace GestorArchivosOnline.Domain Assembly GestorArchivosOnline.Domain.dll public class DetalleSuscripcionUsuario Inheritance object DetalleSuscripcionUsuario Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors DetalleSuscripcionUsuario(Usuario, TipoSuscripcion, DateTime, DateTime, float) public DetalleSuscripcionUsuario(Usuario usuario, TipoSuscripcion tipoSuscripcion, DateTime fechaInicio, DateTime fechaFinal, float precio) Parameters usuario Usuario tipoSuscripcion TipoSuscripcion fechaInicio DateTime fechaFinal DateTime precio float Properties FechaFinal public DateTime FechaFinal { get; } Property Value DateTime FechaInicio public DateTime FechaInicio { get; } Property Value DateTime Precio public float Precio { get; } Property Value float TipoSuscripcion public TipoSuscripcion TipoSuscripcion { get; } Property Value TipoSuscripcion Usuario public Usuario Usuario { get; } Property Value Usuario Methods ActualizarSuscripcion() public void ActualizarSuscripcion() AgregarOperacionPDF(OperacionPDF) public void AgregarOperacionPDF(OperacionPDF operacion) Parameters operacion OperacionPDF ComprarSuscripcion() public void ComprarSuscripcion()"
+  },
+  "api/GestorArchivosOnline.Domain.FusionadorPDF.html": {
+    "href": "api/GestorArchivosOnline.Domain.FusionadorPDF.html",
+    "title": "Class FusionadorPDF",
+    "keywords": "Class FusionadorPDF Namespace GestorArchivosOnline.Domain Assembly GestorArchivosOnline.Domain.dll public class FusionadorPDF : OperacionPDF Inheritance object OperacionPDF FusionadorPDF Inherited Members OperacionPDF.resultado2 OperacionPDF.resultado object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields pdfsParaFusionar public List<PDF> pdfsParaFusionar Field Value List<PDF> Methods AgregarPDF(string) public void AgregarPDF(string pdf) Parameters pdf string EliminarPDF(string) public void EliminarPDF(string pdf) Parameters pdf string RealizarOperacion() public override string RealizarOperacion() Returns string"
+  },
+  "api/GestorArchivosOnline.Domain.ListaDeOperacionesSuscripcionUsuario.html": {
+    "href": "api/GestorArchivosOnline.Domain.ListaDeOperacionesSuscripcionUsuario.html",
+    "title": "Class ListaDeOperacionesSuscripcionUsuario",
+    "keywords": "Class ListaDeOperacionesSuscripcionUsuario Namespace GestorArchivosOnline.Domain Assembly GestorArchivosOnline.Domain.dll public class ListaDeOperacionesSuscripcionUsuario Inheritance object ListaDeOperacionesSuscripcionUsuario Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors ListaDeOperacionesSuscripcionUsuario(DetalleSuscripcionUsuario, OperacionPDF, DateTime) public ListaDeOperacionesSuscripcionUsuario(DetalleSuscripcionUsuario suscripcionUsuario, OperacionPDF operacionPDF, DateTime fechaRealizacion) Parameters suscripcionUsuario DetalleSuscripcionUsuario operacionPDF OperacionPDF fechaRealizacion DateTime Fields fechaRealizacion public DateTime fechaRealizacion Field Value DateTime operacionPDF public OperacionPDF operacionPDF Field Value OperacionPDF Properties suscripcionUsuario public DetalleSuscripcionUsuario suscripcionUsuario { get; } Property Value DetalleSuscripcionUsuario Methods RealizarOperacion() public string RealizarOperacion() Returns string"
+  },
+  "api/GestorArchivosOnline.Domain.OperacionPDF.html": {
+    "href": "api/GestorArchivosOnline.Domain.OperacionPDF.html",
+    "title": "Class OperacionPDF",
+    "keywords": "Class OperacionPDF Namespace GestorArchivosOnline.Domain Assembly GestorArchivosOnline.Domain.dll public abstract class OperacionPDF Inheritance object OperacionPDF Derived CortadorPDF FusionadorPDF Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields resultado public string resultado Field Value string resultado2 public PDF? resultado2 Field Value PDF Methods RealizarOperacion() public abstract string RealizarOperacion() Returns string"
+  },
+  "api/GestorArchivosOnline.Domain.PDF.html": {
+    "href": "api/GestorArchivosOnline.Domain.PDF.html",
+    "title": "Class PDF",
+    "keywords": "Class PDF Namespace GestorArchivosOnline.Domain Assembly GestorArchivosOnline.Domain.dll public class PDF Inheritance object PDF Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors PDF(string, string) public PDF(string nombre, string contenido) Parameters nombre string contenido string Fields contenido public string contenido Field Value string nombre public string nombre Field Value string Methods ObtenerContenido() public string ObtenerContenido() Returns string ObtenerNombre() public string ObtenerNombre() Returns string"
+  },
+  "api/GestorArchivosOnline.Domain.TipoSuscripcion.html": {
+    "href": "api/GestorArchivosOnline.Domain.TipoSuscripcion.html",
+    "title": "Enum TipoSuscripcion",
+    "keywords": "Enum TipoSuscripcion Namespace GestorArchivosOnline.Domain Assembly GestorArchivosOnline.Domain.dll public enum TipoSuscripcion Fields ANUAL = 1 MENSUAL = 0"
+  },
+  "api/GestorArchivosOnline.Domain.Usuario.html": {
+    "href": "api/GestorArchivosOnline.Domain.Usuario.html",
+    "title": "Class Usuario",
+    "keywords": "Class Usuario Namespace GestorArchivosOnline.Domain Assembly GestorArchivosOnline.Domain.dll public class Usuario Inheritance object Usuario Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors Usuario(string, string, string) public Usuario(string nombre, string correo, string contraseña) Parameters nombre string correo string contraseña string Properties Contraseña public string Contraseña { get; set; } Property Value string Correo public string Correo { get; } Property Value string Nombre public string Nombre { get; } Property Value string Methods IniciarSesion(string) public bool IniciarSesion(string contraseña) Parameters contraseña string Returns bool Registrar() public void Registrar()"
+  },
+  "api/GestorArchivosOnline.Domain.html": {
+    "href": "api/GestorArchivosOnline.Domain.html",
+    "title": "Namespace GestorArchivosOnline.Domain",
+    "keywords": "Namespace GestorArchivosOnline.Domain Classes CortadorPDF DetalleSuscripcionUsuario FusionadorPDF ListaDeOperacionesSuscripcionUsuario OperacionPDF PDF Usuario Enums TipoSuscripcion"
+  },
+  "api/GestorArchivosOnline.Tests.GestorArchivosTests.html": {
+    "href": "api/GestorArchivosOnline.Tests.GestorArchivosTests.html",
+    "title": "Class GestorArchivosTests",
+    "keywords": "Class GestorArchivosTests Namespace GestorArchivosOnline.Tests Assembly GestorArchivosOnline.Domain.Tests.dll [TestFixture] public class GestorArchivosTests Inheritance object GestorArchivosTests Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods CortadorPDF_RealizarOperacion() [Test] public void CortadorPDF_RealizarOperacion() DetalleSuscripcionUsuario_ComprarSuscripcion() [Test] public void DetalleSuscripcionUsuario_ComprarSuscripcion() FusionadorPDF_RealizarOperacion() [Test] public void FusionadorPDF_RealizarOperacion() Usuario_IniciarSesion_Correcto() [Test] public void Usuario_IniciarSesion_Correcto() Usuario_IniciarSesion_Incorrecto() [Test] public void Usuario_IniciarSesion_Incorrecto()"
+  },
+  "api/GestorArchivosOnline.Tests.html": {
+    "href": "api/GestorArchivosOnline.Tests.html",
+    "title": "Namespace GestorArchivosOnline.Tests",
+    "keywords": "Namespace GestorArchivosOnline.Tests Classes GestorArchivosTests"
+  },
+  "docs/getting-started.html": {
+    "href": "docs/getting-started.html",
+    "title": "Getting Started",
+    "keywords": "Getting Started"
+  },
+  "docs/introduction.html": {
+    "href": "docs/introduction.html",
+    "title": "Introduction",
+    "keywords": "Introduction"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "This is the HOMEPAGE.",
+    "keywords": "This is the HOMEPAGE. Refer to Markdown for how to write markdown files. Quick Start Notes: Add images to the images folder if the file is referencing an image."
+  },
+  "output.html": {
+    "href": "output.html",
+    "title": "",
+    "keywords": "classDiagram class CortadorPDF CortadorPDF : +SeleccionarPaginas() Void CortadorPDF : +RealizarOperacion() String class DetalleSuscripcionUsuario DetalleSuscripcionUsuario : +Usuario Usuario DetalleSuscripcionUsuario : +TipoSuscripcion TipoSuscripcion DetalleSuscripcionUsuario : +DateTime FechaInicio DetalleSuscripcionUsuario : +DateTime FechaFinal DetalleSuscripcionUsuario : +Single Precio DetalleSuscripcionUsuario : +ComprarSuscripcion() Void DetalleSuscripcionUsuario : +ActualizarSuscripcion() Void DetalleSuscripcionUsuario : +AgregarOperacionPDF() Void class FusionadorPDF FusionadorPDF : +AgregarPDF() Void FusionadorPDF : +EliminarPDF() Void FusionadorPDF : +RealizarOperacion() String class ListaDeOperacionesSuscripcionUsuario ListaDeOperacionesSuscripcionUsuario : +DetalleSuscripcionUsuario suscripcionUsuario ListaDeOperacionesSuscripcionUsuario : +RealizarOperacion() String class OperacionPDF OperacionPDF : +RealizarOperacion() String class PDF PDF : +ObtenerNombre() String PDF : +ObtenerContenido() String class Usuario Usuario : +String Nombre Usuario : +String Correo Usuario : +String Contraseña Usuario : +IniciarSesion() Boolean Usuario : +Registrar() Void OperacionPDF <|-- CortadorPDF Usuario <-- DetalleSuscripcionUsuario OperacionPDF <|-- FusionadorPDF DetalleSuscripcionUsuario <-- ListaDeOperacionesSuscripcionUsuario"
+  }
+}

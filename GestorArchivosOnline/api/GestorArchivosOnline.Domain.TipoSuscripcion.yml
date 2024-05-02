@@ -1,0 +1,100 @@
+### YamlMime:ManagedReference
+items:
+- uid: GestorArchivosOnline.Domain.TipoSuscripcion
+  commentId: T:GestorArchivosOnline.Domain.TipoSuscripcion
+  id: TipoSuscripcion
+  parent: GestorArchivosOnline.Domain
+  children:
+  - GestorArchivosOnline.Domain.TipoSuscripcion.ANUAL
+  - GestorArchivosOnline.Domain.TipoSuscripcion.MENSUAL
+  langs:
+  - csharp
+  - vb
+  name: TipoSuscripcion
+  nameWithType: TipoSuscripcion
+  fullName: GestorArchivosOnline.Domain.TipoSuscripcion
+  type: Enum
+  source:
+    id: TipoSuscripcion
+    path: C:\Users\HP\Documents\lareal\GestorArchivosOnlineparaerick\GestorArchivosOnlineparaerick\GestorArchivosOnline\GestorArchivosOnline.Domain\TipoSuscripcion.cs
+    startLine: 2
+  assemblies:
+  - GestorArchivosOnline.Domain
+  namespace: GestorArchivosOnline.Domain
+  syntax:
+    content: public enum TipoSuscripcion
+    content.vb: Public Enum TipoSuscripcion
+- uid: GestorArchivosOnline.Domain.TipoSuscripcion.MENSUAL
+  commentId: F:GestorArchivosOnline.Domain.TipoSuscripcion.MENSUAL
+  id: MENSUAL
+  parent: GestorArchivosOnline.Domain.TipoSuscripcion
+  langs:
+  - csharp
+  - vb
+  name: MENSUAL
+  nameWithType: TipoSuscripcion.MENSUAL
+  fullName: GestorArchivosOnline.Domain.TipoSuscripcion.MENSUAL
+  type: Field
+  source:
+    id: MENSUAL
+    path: C:\Users\HP\Documents\lareal\GestorArchivosOnlineparaerick\GestorArchivosOnlineparaerick\GestorArchivosOnline\GestorArchivosOnline.Domain\TipoSuscripcion.cs
+    startLine: 4
+  assemblies:
+  - GestorArchivosOnline.Domain
+  namespace: GestorArchivosOnline.Domain
+  syntax:
+    content: MENSUAL = 0
+    return:
+      type: GestorArchivosOnline.Domain.TipoSuscripcion
+- uid: GestorArchivosOnline.Domain.TipoSuscripcion.ANUAL
+  commentId: F:GestorArchivosOnline.Domain.TipoSuscripcion.ANUAL
+  id: ANUAL
+  parent: GestorArchivosOnline.Domain.TipoSuscripcion
+  langs:
+  - csharp
+  - vb
+  name: ANUAL
+  nameWithType: TipoSuscripcion.ANUAL
+  fullName: GestorArchivosOnline.Domain.TipoSuscripcion.ANUAL
+  type: Field
+  source:
+    id: ANUAL
+    path: C:\Users\HP\Documents\lareal\GestorArchivosOnlineparaerick\GestorArchivosOnlineparaerick\GestorArchivosOnline\GestorArchivosOnline.Domain\TipoSuscripcion.cs
+    startLine: 5
+  assemblies:
+  - GestorArchivosOnline.Domain
+  namespace: GestorArchivosOnline.Domain
+  syntax:
+    content: ANUAL = 1
+    return:
+      type: GestorArchivosOnline.Domain.TipoSuscripcion
+references:
+- uid: GestorArchivosOnline.Domain
+  commentId: N:GestorArchivosOnline.Domain
+  href: GestorArchivosOnline.html
+  name: GestorArchivosOnline.Domain
+  nameWithType: GestorArchivosOnline.Domain
+  fullName: GestorArchivosOnline.Domain
+  spec.csharp:
+  - uid: GestorArchivosOnline
+    name: GestorArchivosOnline
+    href: GestorArchivosOnline.html
+  - name: .
+  - uid: GestorArchivosOnline.Domain
+    name: Domain
+    href: GestorArchivosOnline.Domain.html
+  spec.vb:
+  - uid: GestorArchivosOnline
+    name: GestorArchivosOnline
+    href: GestorArchivosOnline.html
+  - name: .
+  - uid: GestorArchivosOnline.Domain
+    name: Domain
+    href: GestorArchivosOnline.Domain.html
+- uid: GestorArchivosOnline.Domain.TipoSuscripcion
+  commentId: T:GestorArchivosOnline.Domain.TipoSuscripcion
+  parent: GestorArchivosOnline.Domain
+  href: GestorArchivosOnline.Domain.TipoSuscripcion.html
+  name: TipoSuscripcion
+  nameWithType: TipoSuscripcion
+  fullName: GestorArchivosOnline.Domain.TipoSuscripcion

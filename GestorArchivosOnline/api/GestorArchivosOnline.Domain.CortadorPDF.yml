@@ -1,0 +1,471 @@
+### YamlMime:ManagedReference
+items:
+- uid: GestorArchivosOnline.Domain.CortadorPDF
+  commentId: T:GestorArchivosOnline.Domain.CortadorPDF
+  id: CortadorPDF
+  parent: GestorArchivosOnline.Domain
+  children:
+  - GestorArchivosOnline.Domain.CortadorPDF.RealizarOperacion
+  - GestorArchivosOnline.Domain.CortadorPDF.SeleccionarPaginas(System.String)
+  - GestorArchivosOnline.Domain.CortadorPDF.pdfOriginal
+  - GestorArchivosOnline.Domain.CortadorPDF.rangoPaginas
+  langs:
+  - csharp
+  - vb
+  name: CortadorPDF
+  nameWithType: CortadorPDF
+  fullName: GestorArchivosOnline.Domain.CortadorPDF
+  type: Class
+  source:
+    id: CortadorPDF
+    path: C:\Users\HP\Documents\lareal\GestorArchivosOnlineparaerick\GestorArchivosOnlineparaerick\GestorArchivosOnline\GestorArchivosOnline.Domain\CortadorPDF.cs
+    startLine: 2
+  assemblies:
+  - GestorArchivosOnline.Domain
+  namespace: GestorArchivosOnline.Domain
+  syntax:
+    content: 'public class CortadorPDF : OperacionPDF'
+    content.vb: Public Class CortadorPDF Inherits OperacionPDF
+  inheritance:
+  - System.Object
+  - GestorArchivosOnline.Domain.OperacionPDF
+  inheritedMembers:
+  - GestorArchivosOnline.Domain.OperacionPDF.resultado2
+  - GestorArchivosOnline.Domain.OperacionPDF.resultado
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: GestorArchivosOnline.Domain.CortadorPDF.pdfOriginal
+  commentId: F:GestorArchivosOnline.Domain.CortadorPDF.pdfOriginal
+  id: pdfOriginal
+  parent: GestorArchivosOnline.Domain.CortadorPDF
+  langs:
+  - csharp
+  - vb
+  name: pdfOriginal
+  nameWithType: CortadorPDF.pdfOriginal
+  fullName: GestorArchivosOnline.Domain.CortadorPDF.pdfOriginal
+  type: Field
+  source:
+    id: pdfOriginal
+    path: C:\Users\HP\Documents\lareal\GestorArchivosOnlineparaerick\GestorArchivosOnlineparaerick\GestorArchivosOnline\GestorArchivosOnline.Domain\CortadorPDF.cs
+    startLine: 4
+  assemblies:
+  - GestorArchivosOnline.Domain
+  namespace: GestorArchivosOnline.Domain
+  syntax:
+    content: public PDF pdfOriginal
+    return:
+      type: GestorArchivosOnline.Domain.PDF
+    content.vb: Public pdfOriginal As PDF
+- uid: GestorArchivosOnline.Domain.CortadorPDF.rangoPaginas
+  commentId: F:GestorArchivosOnline.Domain.CortadorPDF.rangoPaginas
+  id: rangoPaginas
+  parent: GestorArchivosOnline.Domain.CortadorPDF
+  langs:
+  - csharp
+  - vb
+  name: rangoPaginas
+  nameWithType: CortadorPDF.rangoPaginas
+  fullName: GestorArchivosOnline.Domain.CortadorPDF.rangoPaginas
+  type: Field
+  source:
+    id: rangoPaginas
+    path: C:\Users\HP\Documents\lareal\GestorArchivosOnlineparaerick\GestorArchivosOnlineparaerick\GestorArchivosOnline\GestorArchivosOnline.Domain\CortadorPDF.cs
+    startLine: 5
+  assemblies:
+  - GestorArchivosOnline.Domain
+  namespace: GestorArchivosOnline.Domain
+  syntax:
+    content: public string rangoPaginas
+    return:
+      type: System.String
+    content.vb: Public rangoPaginas As String
+- uid: GestorArchivosOnline.Domain.CortadorPDF.SeleccionarPaginas(System.String)
+  commentId: M:GestorArchivosOnline.Domain.CortadorPDF.SeleccionarPaginas(System.String)
+  id: SeleccionarPaginas(System.String)
+  parent: GestorArchivosOnline.Domain.CortadorPDF
+  langs:
+  - csharp
+  - vb
+  name: SeleccionarPaginas(string)
+  nameWithType: CortadorPDF.SeleccionarPaginas(string)
+  fullName: GestorArchivosOnline.Domain.CortadorPDF.SeleccionarPaginas(string)
+  type: Method
+  source:
+    id: SeleccionarPaginas
+    path: C:\Users\HP\Documents\lareal\GestorArchivosOnlineparaerick\GestorArchivosOnlineparaerick\GestorArchivosOnline\GestorArchivosOnline.Domain\CortadorPDF.cs
+    startLine: 6
+  assemblies:
+  - GestorArchivosOnline.Domain
+  namespace: GestorArchivosOnline.Domain
+  syntax:
+    content: public void SeleccionarPaginas(string rango)
+    parameters:
+    - id: rango
+      type: System.String
+    content.vb: Public Sub SeleccionarPaginas(rango As String)
+  overload: GestorArchivosOnline.Domain.CortadorPDF.SeleccionarPaginas*
+  nameWithType.vb: CortadorPDF.SeleccionarPaginas(String)
+  fullName.vb: GestorArchivosOnline.Domain.CortadorPDF.SeleccionarPaginas(String)
+  name.vb: SeleccionarPaginas(String)
+- uid: GestorArchivosOnline.Domain.CortadorPDF.RealizarOperacion
+  commentId: M:GestorArchivosOnline.Domain.CortadorPDF.RealizarOperacion
+  id: RealizarOperacion
+  parent: GestorArchivosOnline.Domain.CortadorPDF
+  langs:
+  - csharp
+  - vb
+  name: RealizarOperacion()
+  nameWithType: CortadorPDF.RealizarOperacion()
+  fullName: GestorArchivosOnline.Domain.CortadorPDF.RealizarOperacion()
+  type: Method
+  source:
+    id: RealizarOperacion
+    path: C:\Users\HP\Documents\lareal\GestorArchivosOnlineparaerick\GestorArchivosOnlineparaerick\GestorArchivosOnline\GestorArchivosOnline.Domain\CortadorPDF.cs
+    startLine: 11
+  assemblies:
+  - GestorArchivosOnline.Domain
+  namespace: GestorArchivosOnline.Domain
+  example: []
+  syntax:
+    content: public override string RealizarOperacion()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function RealizarOperacion() As String
+  overridden: GestorArchivosOnline.Domain.OperacionPDF.RealizarOperacion
+  overload: GestorArchivosOnline.Domain.CortadorPDF.RealizarOperacion*
+references:
+- uid: GestorArchivosOnline.Domain
+  commentId: N:GestorArchivosOnline.Domain
+  href: GestorArchivosOnline.html
+  name: GestorArchivosOnline.Domain
+  nameWithType: GestorArchivosOnline.Domain
+  fullName: GestorArchivosOnline.Domain
+  spec.csharp:
+  - uid: GestorArchivosOnline
+    name: GestorArchivosOnline
+    href: GestorArchivosOnline.html
+  - name: .
+  - uid: GestorArchivosOnline.Domain
+    name: Domain
+    href: GestorArchivosOnline.Domain.html
+  spec.vb:
+  - uid: GestorArchivosOnline
+    name: GestorArchivosOnline
+    href: GestorArchivosOnline.html
+  - name: .
+  - uid: GestorArchivosOnline.Domain
+    name: Domain
+    href: GestorArchivosOnline.Domain.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: GestorArchivosOnline.Domain.OperacionPDF
+  commentId: T:GestorArchivosOnline.Domain.OperacionPDF
+  parent: GestorArchivosOnline.Domain
+  href: GestorArchivosOnline.Domain.OperacionPDF.html
+  name: OperacionPDF
+  nameWithType: OperacionPDF
+  fullName: GestorArchivosOnline.Domain.OperacionPDF
+- uid: GestorArchivosOnline.Domain.OperacionPDF.resultado2
+  commentId: F:GestorArchivosOnline.Domain.OperacionPDF.resultado2
+  parent: GestorArchivosOnline.Domain.OperacionPDF
+  href: GestorArchivosOnline.Domain.OperacionPDF.html#GestorArchivosOnline_Domain_OperacionPDF_resultado2
+  name: resultado2
+  nameWithType: OperacionPDF.resultado2
+  fullName: GestorArchivosOnline.Domain.OperacionPDF.resultado2
+- uid: GestorArchivosOnline.Domain.OperacionPDF.resultado
+  commentId: F:GestorArchivosOnline.Domain.OperacionPDF.resultado
+  parent: GestorArchivosOnline.Domain.OperacionPDF
+  href: GestorArchivosOnline.Domain.OperacionPDF.html#GestorArchivosOnline_Domain_OperacionPDF_resultado
+  name: resultado
+  nameWithType: OperacionPDF.resultado
+  fullName: GestorArchivosOnline.Domain.OperacionPDF.resultado
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GestorArchivosOnline.Domain.PDF
+  commentId: T:GestorArchivosOnline.Domain.PDF
+  parent: GestorArchivosOnline.Domain
+  href: GestorArchivosOnline.Domain.PDF.html
+  name: PDF
+  nameWithType: PDF
+  fullName: GestorArchivosOnline.Domain.PDF
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: GestorArchivosOnline.Domain.CortadorPDF.SeleccionarPaginas*
+  commentId: Overload:GestorArchivosOnline.Domain.CortadorPDF.SeleccionarPaginas
+  href: GestorArchivosOnline.Domain.CortadorPDF.html#GestorArchivosOnline_Domain_CortadorPDF_SeleccionarPaginas_System_String_
+  name: SeleccionarPaginas
+  nameWithType: CortadorPDF.SeleccionarPaginas
+  fullName: GestorArchivosOnline.Domain.CortadorPDF.SeleccionarPaginas
+- uid: GestorArchivosOnline.Domain.OperacionPDF.RealizarOperacion
+  commentId: M:GestorArchivosOnline.Domain.OperacionPDF.RealizarOperacion
+  parent: GestorArchivosOnline.Domain.OperacionPDF
+  href: GestorArchivosOnline.Domain.OperacionPDF.html#GestorArchivosOnline_Domain_OperacionPDF_RealizarOperacion
+  name: RealizarOperacion()
+  nameWithType: OperacionPDF.RealizarOperacion()
+  fullName: GestorArchivosOnline.Domain.OperacionPDF.RealizarOperacion()
+  spec.csharp:
+  - uid: GestorArchivosOnline.Domain.OperacionPDF.RealizarOperacion
+    name: RealizarOperacion
+    href: GestorArchivosOnline.Domain.OperacionPDF.html#GestorArchivosOnline_Domain_OperacionPDF_RealizarOperacion
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: GestorArchivosOnline.Domain.OperacionPDF.RealizarOperacion
+    name: RealizarOperacion
+    href: GestorArchivosOnline.Domain.OperacionPDF.html#GestorArchivosOnline_Domain_OperacionPDF_RealizarOperacion
+  - name: (
+  - name: )
+- uid: GestorArchivosOnline.Domain.CortadorPDF.RealizarOperacion*
+  commentId: Overload:GestorArchivosOnline.Domain.CortadorPDF.RealizarOperacion
+  href: GestorArchivosOnline.Domain.CortadorPDF.html#GestorArchivosOnline_Domain_CortadorPDF_RealizarOperacion
+  name: RealizarOperacion
+  nameWithType: CortadorPDF.RealizarOperacion
+  fullName: GestorArchivosOnline.Domain.CortadorPDF.RealizarOperacion

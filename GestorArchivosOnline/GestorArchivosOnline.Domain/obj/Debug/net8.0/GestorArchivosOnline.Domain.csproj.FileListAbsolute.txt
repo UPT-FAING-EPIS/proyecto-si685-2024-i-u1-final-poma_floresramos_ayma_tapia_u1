@@ -1,0 +1,66 @@
+D:\arquitectura software\Proyecto gestion de archivos\GestorArchivosOnline\GestorArchivosOnline.Domain\obj\Debug\net8.0\GestorArchivosOnline.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\arquitectura software\Proyecto gestion de archivos\GestorArchivosOnline\GestorArchivosOnline.Domain\obj\Debug\net8.0\GestorArchivosOnline.Domain.AssemblyInfoInputs.cache
+D:\arquitectura software\Proyecto gestion de archivos\GestorArchivosOnline\GestorArchivosOnline.Domain\obj\Debug\net8.0\GestorArchivosOnline.Domain.AssemblyInfo.cs
+D:\arquitectura software\Proyecto gestion de archivos\GestorArchivosOnline\GestorArchivosOnline.Domain\obj\Debug\net8.0\GestorArchivosOnline.Domain.csproj.CoreCompileInputs.cache
+D:\arquitectura software\Proyecto gestion de archivos\GestorArchivosOnline\GestorArchivosOnline.Domain\bin\Debug\net8.0\GestorArchivosOnline.Domain.deps.json
+D:\arquitectura software\Proyecto gestion de archivos\GestorArchivosOnline\GestorArchivosOnline.Domain\bin\Debug\net8.0\GestorArchivosOnline.Domain.dll
+D:\arquitectura software\Proyecto gestion de archivos\GestorArchivosOnline\GestorArchivosOnline.Domain\bin\Debug\net8.0\GestorArchivosOnline.Domain.pdb
+D:\arquitectura software\Proyecto gestion de archivos\GestorArchivosOnline\GestorArchivosOnline.Domain\obj\Debug\net8.0\GestorArchivosOnline.Domain.dll
+D:\arquitectura software\Proyecto gestion de archivos\GestorArchivosOnline\GestorArchivosOnline.Domain\obj\Debug\net8.0\refint\GestorArchivosOnline.Domain.dll
+D:\arquitectura software\Proyecto gestion de archivos\GestorArchivosOnline\GestorArchivosOnline.Domain\obj\Debug\net8.0\GestorArchivosOnline.Domain.pdb
+D:\arquitectura software\Proyecto gestion de archivos\GestorArchivosOnline\GestorArchivosOnline.Domain\obj\Debug\net8.0\ref\GestorArchivosOnline.Domain.dll
+C:\Users\zouoz\Downloads\GestorArchivosOnlineparecequesi\GestorArchivosOnline\GestorArchivosOnline.Domain\bin\Debug\net8.0\GestorArchivosOnline.Domain.deps.json
+C:\Users\zouoz\Downloads\GestorArchivosOnlineparecequesi\GestorArchivosOnline\GestorArchivosOnline.Domain\bin\Debug\net8.0\GestorArchivosOnline.Domain.dll
+C:\Users\zouoz\Downloads\GestorArchivosOnlineparecequesi\GestorArchivosOnline\GestorArchivosOnline.Domain\bin\Debug\net8.0\GestorArchivosOnline.Domain.pdb
+C:\Users\zouoz\Downloads\GestorArchivosOnlineparecequesi\GestorArchivosOnline\GestorArchivosOnline.Domain\obj\Debug\net8.0\GestorArchivosOnline.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zouoz\Downloads\GestorArchivosOnlineparecequesi\GestorArchivosOnline\GestorArchivosOnline.Domain\obj\Debug\net8.0\GestorArchivosOnline.Domain.AssemblyInfoInputs.cache
+C:\Users\zouoz\Downloads\GestorArchivosOnlineparecequesi\GestorArchivosOnline\GestorArchivosOnline.Domain\obj\Debug\net8.0\GestorArchivosOnline.Domain.AssemblyInfo.cs
+C:\Users\zouoz\Downloads\GestorArchivosOnlineparecequesi\GestorArchivosOnline\GestorArchivosOnline.Domain\obj\Debug\net8.0\GestorArchivosOnline.Domain.csproj.CoreCompileInputs.cache
+C:\Users\zouoz\Downloads\GestorArchivosOnlineparecequesi\GestorArchivosOnline\GestorArchivosOnline.Domain\obj\Debug\net8.0\GestorArchivosOnline.Domain.dll
+C:\Users\zouoz\Downloads\GestorArchivosOnlineparecequesi\GestorArchivosOnline\GestorArchivosOnline.Domain\obj\Debug\net8.0\refint\GestorArchivosOnline.Domain.dll
+C:\Users\zouoz\Downloads\GestorArchivosOnlineparecequesi\GestorArchivosOnline\GestorArchivosOnline.Domain\obj\Debug\net8.0\GestorArchivosOnline.Domain.pdb
+C:\Users\zouoz\Downloads\GestorArchivosOnlineparecequesi\GestorArchivosOnline\GestorArchivosOnline.Domain\obj\Debug\net8.0\ref\GestorArchivosOnline.Domain.dll
+C:\Users\mario\OneDrive\Documentos\para mario\GestorArchivosOnline\GestorArchivosOnline.Domain\bin\Debug\net8.0\GestorArchivosOnline.Domain.deps.json
+C:\Users\mario\OneDrive\Documentos\para mario\GestorArchivosOnline\GestorArchivosOnline.Domain\bin\Debug\net8.0\GestorArchivosOnline.Domain.dll
+C:\Users\mario\OneDrive\Documentos\para mario\GestorArchivosOnline\GestorArchivosOnline.Domain\bin\Debug\net8.0\GestorArchivosOnline.Domain.pdb
+C:\Users\mario\OneDrive\Documentos\para mario\GestorArchivosOnline\GestorArchivosOnline.Domain\obj\Debug\net8.0\GestorArchivosOnline.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mario\OneDrive\Documentos\para mario\GestorArchivosOnline\GestorArchivosOnline.Domain\obj\Debug\net8.0\GestorArchivosOnline.Domain.AssemblyInfoInputs.cache
+C:\Users\mario\OneDrive\Documentos\para mario\GestorArchivosOnline\GestorArchivosOnline.Domain\obj\Debug\net8.0\GestorArchivosOnline.Domain.AssemblyInfo.cs
+C:\Users\mario\OneDrive\Documentos\para mario\GestorArchivosOnline\GestorArchivosOnline.Domain\obj\Debug\net8.0\GestorArchivosOnline.Domain.csproj.CoreCompileInputs.cache
+C:\Users\mario\OneDrive\Documentos\para mario\GestorArchivosOnline\GestorArchivosOnline.Domain\obj\Debug\net8.0\GestorArchivosOnline.Domain.dll
+C:\Users\mario\OneDrive\Documentos\para mario\GestorArchivosOnline\GestorArchivosOnline.Domain\obj\Debug\net8.0\refint\GestorArchivosOnline.Domain.dll
+C:\Users\mario\OneDrive\Documentos\para mario\GestorArchivosOnline\GestorArchivosOnline.Domain\obj\Debug\net8.0\GestorArchivosOnline.Domain.pdb
+C:\Users\mario\OneDrive\Documentos\para mario\GestorArchivosOnline\GestorArchivosOnline.Domain\obj\Debug\net8.0\ref\GestorArchivosOnline.Domain.dll
+C:\Users\mario\OneDrive\Imágenes\GestorArchivosOnlineparaerick\GestorArchivosOnline\GestorArchivosOnline.Domain\bin\Debug\net8.0\GestorArchivosOnline.Domain.deps.json
+C:\Users\mario\OneDrive\Imágenes\GestorArchivosOnlineparaerick\GestorArchivosOnline\GestorArchivosOnline.Domain\bin\Debug\net8.0\GestorArchivosOnline.Domain.dll
+C:\Users\mario\OneDrive\Imágenes\GestorArchivosOnlineparaerick\GestorArchivosOnline\GestorArchivosOnline.Domain\bin\Debug\net8.0\GestorArchivosOnline.Domain.pdb
+C:\Users\mario\OneDrive\Imágenes\GestorArchivosOnlineparaerick\GestorArchivosOnline\GestorArchivosOnline.Domain\obj\Debug\net8.0\GestorArchivosOnline.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mario\OneDrive\Imágenes\GestorArchivosOnlineparaerick\GestorArchivosOnline\GestorArchivosOnline.Domain\obj\Debug\net8.0\GestorArchivosOnline.Domain.AssemblyInfoInputs.cache
+C:\Users\mario\OneDrive\Imágenes\GestorArchivosOnlineparaerick\GestorArchivosOnline\GestorArchivosOnline.Domain\obj\Debug\net8.0\GestorArchivosOnline.Domain.AssemblyInfo.cs
+C:\Users\mario\OneDrive\Imágenes\GestorArchivosOnlineparaerick\GestorArchivosOnline\GestorArchivosOnline.Domain\obj\Debug\net8.0\GestorArchivosOnline.Domain.csproj.CoreCompileInputs.cache
+C:\Users\mario\OneDrive\Imágenes\GestorArchivosOnlineparaerick\GestorArchivosOnline\GestorArchivosOnline.Domain\obj\Debug\net8.0\GestorArchivosOnline.Domain.dll
+C:\Users\mario\OneDrive\Imágenes\GestorArchivosOnlineparaerick\GestorArchivosOnline\GestorArchivosOnline.Domain\obj\Debug\net8.0\refint\GestorArchivosOnline.Domain.dll
+C:\Users\mario\OneDrive\Imágenes\GestorArchivosOnlineparaerick\GestorArchivosOnline\GestorArchivosOnline.Domain\obj\Debug\net8.0\GestorArchivosOnline.Domain.pdb
+C:\Users\mario\OneDrive\Imágenes\GestorArchivosOnlineparaerick\GestorArchivosOnline\GestorArchivosOnline.Domain\obj\Debug\net8.0\ref\GestorArchivosOnline.Domain.dll
+C:\Users\HP\Documents\lareal\GestorArchivosOnlineparaerick\GestorArchivosOnlineparaerick\GestorArchivosOnline\GestorArchivosOnline.Domain\bin\Debug\net8.0\GestorArchivosOnline.Domain.deps.json
+C:\Users\HP\Documents\lareal\GestorArchivosOnlineparaerick\GestorArchivosOnlineparaerick\GestorArchivosOnline\GestorArchivosOnline.Domain\bin\Debug\net8.0\GestorArchivosOnline.Domain.dll
+C:\Users\HP\Documents\lareal\GestorArchivosOnlineparaerick\GestorArchivosOnlineparaerick\GestorArchivosOnline\GestorArchivosOnline.Domain\bin\Debug\net8.0\GestorArchivosOnline.Domain.pdb
+C:\Users\HP\Documents\lareal\GestorArchivosOnlineparaerick\GestorArchivosOnlineparaerick\GestorArchivosOnline\GestorArchivosOnline.Domain\obj\Debug\net8.0\GestorArchivosOnline.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Documents\lareal\GestorArchivosOnlineparaerick\GestorArchivosOnlineparaerick\GestorArchivosOnline\GestorArchivosOnline.Domain\obj\Debug\net8.0\GestorArchivosOnline.Domain.AssemblyInfoInputs.cache
+C:\Users\HP\Documents\lareal\GestorArchivosOnlineparaerick\GestorArchivosOnlineparaerick\GestorArchivosOnline\GestorArchivosOnline.Domain\obj\Debug\net8.0\GestorArchivosOnline.Domain.AssemblyInfo.cs
+C:\Users\HP\Documents\lareal\GestorArchivosOnlineparaerick\GestorArchivosOnlineparaerick\GestorArchivosOnline\GestorArchivosOnline.Domain\obj\Debug\net8.0\GestorArchivosOnline.Domain.csproj.CoreCompileInputs.cache
+C:\Users\HP\Documents\lareal\GestorArchivosOnlineparaerick\GestorArchivosOnlineparaerick\GestorArchivosOnline\GestorArchivosOnline.Domain\obj\Debug\net8.0\GestorArchivosOnline.Domain.dll
+C:\Users\HP\Documents\lareal\GestorArchivosOnlineparaerick\GestorArchivosOnlineparaerick\GestorArchivosOnline\GestorArchivosOnline.Domain\obj\Debug\net8.0\refint\GestorArchivosOnline.Domain.dll
+C:\Users\HP\Documents\lareal\GestorArchivosOnlineparaerick\GestorArchivosOnlineparaerick\GestorArchivosOnline\GestorArchivosOnline.Domain\obj\Debug\net8.0\GestorArchivosOnline.Domain.pdb
+C:\Users\HP\Documents\lareal\GestorArchivosOnlineparaerick\GestorArchivosOnlineparaerick\GestorArchivosOnline\GestorArchivosOnline.Domain\obj\Debug\net8.0\ref\GestorArchivosOnline.Domain.dll
+D:\arquisoft\estoesserio\GestorArchivosOnline\GestorArchivosOnline.Domain\bin\Debug\net8.0\GestorArchivosOnline.Domain.deps.json
+D:\arquisoft\estoesserio\GestorArchivosOnline\GestorArchivosOnline.Domain\bin\Debug\net8.0\GestorArchivosOnline.Domain.dll
+D:\arquisoft\estoesserio\GestorArchivosOnline\GestorArchivosOnline.Domain\bin\Debug\net8.0\GestorArchivosOnline.Domain.pdb
+D:\arquisoft\estoesserio\GestorArchivosOnline\GestorArchivosOnline.Domain\obj\Debug\net8.0\GestorArchivosOnline.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\arquisoft\estoesserio\GestorArchivosOnline\GestorArchivosOnline.Domain\obj\Debug\net8.0\GestorArchivosOnline.Domain.AssemblyInfoInputs.cache
+D:\arquisoft\estoesserio\GestorArchivosOnline\GestorArchivosOnline.Domain\obj\Debug\net8.0\GestorArchivosOnline.Domain.AssemblyInfo.cs
+D:\arquisoft\estoesserio\GestorArchivosOnline\GestorArchivosOnline.Domain\obj\Debug\net8.0\GestorArchivosOnline.Domain.csproj.CoreCompileInputs.cache
+D:\arquisoft\estoesserio\GestorArchivosOnline\GestorArchivosOnline.Domain\obj\Debug\net8.0\GestorArchivosOnline.Domain.dll
+D:\arquisoft\estoesserio\GestorArchivosOnline\GestorArchivosOnline.Domain\obj\Debug\net8.0\refint\GestorArchivosOnline.Domain.dll
+D:\arquisoft\estoesserio\GestorArchivosOnline\GestorArchivosOnline.Domain\obj\Debug\net8.0\GestorArchivosOnline.Domain.pdb
+D:\arquisoft\estoesserio\GestorArchivosOnline\GestorArchivosOnline.Domain\obj\Debug\net8.0\ref\GestorArchivosOnline.Domain.dll
